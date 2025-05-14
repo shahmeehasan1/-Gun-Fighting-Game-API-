@@ -1,0 +1,11 @@
+const mongoose = require('mongoose');
+
+const PlayerSchema = new mongoose.Schema({
+    username: String,
+    level: { type: Number, default: 1 },
+    score: { type: Number, default: 0 },
+    guns: [String],
+    lastPlayed: { type: Date, default: Date.now }
+});
+
+module.exports = mongoose.model('Player', PlayerSchema);

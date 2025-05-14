@@ -1,0 +1,21 @@
+# Gun Fighting Game API (Node.js + Express)
+
+This is a backend API for a gun fighting game with level tracking, player data, and gun inventory management.
+
+## Features
+
+- Register new players
+- Track player level, score, and guns
+- Update player progress
+- Fetch all player data
+
+## Tech Stack
+
+- Node.js
+- Express
+- MongoDB
+- Mongoose
+
+## Setup
+
+1. Clone the repo:
